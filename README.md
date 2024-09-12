@@ -39,3 +39,10 @@ To use Quantikz, ensure that your LaTeX distribution includes the `Quantikz` pac
 ```latex
 \usepackage{tikz}
 \usetikzlibrary{quantikz2}
+```
+
+If you're uploading to arXiv, you may need to manually include the Quantikz file by adding tikzlibraryquantikz2.code.tex to your project.
+
+Basic Usage
+Quantum Wires
+In Quantikz, quantum circuits are organized in a matrix-like format. Each column is separated by &, and new rows are created with \\. By default, all wires are quantum wires.
