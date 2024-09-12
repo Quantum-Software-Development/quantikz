@@ -1,18 +1,27 @@
+# Quantikz Tutorial - A Quantum Circuit Typesetting Tool for LaTeX
 
-# Quantikz: A Quantum Circuit Typesetting Tool for LaTeX
+Welcome to the **Quantikz** tutorial repository, designed to help you create elegant quantum circuit diagrams with LaTeX and the `Quantikz` package. This guide offers installation instructions, usage examples, and detailed explanations of Quantikz's features.
 
-Welcome to the **Quantikz** tutorial repository! This project is designed to help you create elegant quantum circuit diagrams using LaTeX and the Quantikz package. In this repository, you'll find detailed instructions, example code, and 
+Quantikz is a `TikZ`-based library that provides a more intuitive and customizable alternative to `QCircuit` for typesetting quantum circuits in LaTeX.
+
+This tutorial summarizes Alastair Kay's paper, "Tutorial on the Quantikz Package," and includes examples and tips for effective use of the package.
+
+## Overview
+
+Quantikz is a TikZ library designed for typesetting quantum circuits. It allows users to create diagrams in a matrix-like structure, enabling easy manipulation of quantum and classical wires, gates, and measurements.
+
 
 ## Introduction
 
-**Quantikz** is a LaTeX package built on top of `TikZ`, specifically designed for typesetting quantum circuits. It offers a modern, simpler alternative to `QCircuit` and is highly customizable. Whether you're new to quantum computing or an experienced researcher, Quantikz allows you to create professional, publication-quality quantum circuits.
+**Quantikz** is a LaTeX package built on top of `TikZ`, designed specifically for typesetting quantum circuits. It serves as a modern alternative to `QCircuit`, with a simpler and more intuitive syntax. Whether you're new to quantum computing or a seasoned researcher, Quantikz allows you to create professional, publication-quality quantum circuits with ease.
 
-### Key Features
 
-- **Quantum and Classical Wires**: Support for different wire types in a single circuit.
-- **Customizable Gates**: Easily create common quantum gates (Hadamard, Pauli-X, etc.) and controlled operations.
-- **Highlighting and Slicing**: Highlight parts of your circuit or slice it for step-by-step explanations.
-- **Export Options**: Export diagrams to PDF, PNG, and other formats.
+### Key Advantages:
+
+- **Quantum and Classical Wires**: Support for quantum, classical, and bundled wires.
+- **Customizable Gates**: Create a wide variety of gates, including single-qubit gates, multi-qubit gates, and controlled gates.
+- **Highlighting and Slicing**: Easily highlight parts of your circuit and slice it for step-by-step explanations.
+- **Backward Compatibility**: Quantikz offers features to convert from `QCircuit` and remains backward-compatible with older versions.
 
 
 ## Table of Contents
