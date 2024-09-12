@@ -48,9 +48,31 @@ Quantum Wires
 In Quantikz, quantum circuits are organized in a matrix-like format. Each column is separated by &, and new rows are created with \\. By default, all wires are quantum wires.
 
 ```latex
-Copy
 \begin{quantikz}
 & \gate{H} & \ctrl{1} & \gate{X} & \meter{} \\
 & \targ{}  & \ctrl{-1} & \gate{H} & \meter{}
 \end{quantikz}
 ```
+
+This creates a basic quantum circuit with Hadamard (H), controlled gate (ctrl), Pauli-X (X), and measurement gates.
+
+Gates and Measurement
+Use the \gate command to add gates. You can also add measurement gates (\meter) and phase gates (\phase):
+
+```latex
+\begin{quantikz}
+& \gate{H} & \gate[2]{U} & \gate{R_Z(\theta)} & \meter{} \\
+& & & \phase{\alpha} &
+\end{quantikz}
+Controlled Gates
+For controlled gates, use the \ctrl and \targ commands. Here's an example of a controlled gate and a swap gate:
+```
+
+```latex
+\begin{quantikz}
+& \ctrl{1} & \targ{} & \swap{1} & \ctrl[vertical wire=c]{2} & \\
+& \control{} & \ctrl[open]{-1} & \targX{} & \gate{X} & \\
+&&&& \gate{U} & \meter{} \wire[u][1]{c}
+\end{quantikz}
+```
+
