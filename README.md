@@ -46,3 +46,11 @@ If you're uploading to arXiv, you may need to manually include the Quantikz file
 Basic Usage
 Quantum Wires
 In Quantikz, quantum circuits are organized in a matrix-like format. Each column is separated by &, and new rows are created with \\. By default, all wires are quantum wires.
+
+```latex
+Copy
+\begin{quantikz}
+& \gate{H} & \ctrl{1} & \gate{X} & \meter{} \\
+& \targ{}  & \ctrl{-1} & \gate{H} & \meter{}
+\end{quantikz}
+```
