@@ -1,9 +1,7 @@
 
 # Quantikz: A Quantum Circuit Typesetting Tool for LaTeX
 
-Welcome to the **Quantikz** tutorial repository! This project is designed to help you create elegant quantum circuit diagrams using LaTeX and the Quantikz package. In this repository, you'll find detailed instructions, example code, and guidance on how to export your circuits to various formats (PDF, PNG, etc.).
-
----
+Welcome to the **Quantikz** tutorial repository! This project is designed to help you create elegant quantum circuit diagrams using LaTeX and the Quantikz package. In this repository, you'll find detailed instructions, example code, and 
 
 ## Introduction
 
