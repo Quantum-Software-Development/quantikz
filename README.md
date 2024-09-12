@@ -14,7 +14,6 @@ Welcome to the **Quantikz** tutorial repository! This project is designed to hel
 - **Highlighting and Slicing**: Highlight parts of your circuit or slice it for step-by-step explanations.
 - **Export Options**: Export diagrams to PDF, PNG, and other formats.
 
----
 
 ## Table of Contents
 
