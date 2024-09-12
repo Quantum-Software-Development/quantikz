@@ -36,7 +36,6 @@ Welcome to the **Quantikz** tutorial repository! This project is designed to hel
 7. [Citation](#citation)
 8. [License](#license)
 
----
 
 ## Installation
 
